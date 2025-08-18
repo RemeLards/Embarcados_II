@@ -102,7 +102,7 @@ GECKOSDKDIR=../../Gecko_SDK
 #
 # Protothread Dir
 #
-PROTOTHREADDIR=../../../pt-1.4
+PROTOTHREADDIR=../../protothreads
 
 #
 # CMSIS header files folders (ARM and manufacturer specific)

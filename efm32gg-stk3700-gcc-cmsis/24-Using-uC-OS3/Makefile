@@ -111,11 +111,11 @@ CMSISDEVINCDIR=${GECKOSDKDIR}/platform/Device/SiliconLabs/EFM32GG/Include
 #
 
 # Micrium Dir
-UCOS_DIR=../../..
+UCOS_DIR=../..
 #UCOS_DIR=.
 
 # uCOS-III is the main requisite
-UCOS_SRCDIR=${UCOS_DIR}/uC-OS3/Source
+UCOS_SRCDIR=${UCOS_DIR}/uC-OS3/Source ${UCOS_DIR}/uC-CPU/ ${UCOS_DIR}/uC-LIB/
 #UCOS_PORTDIR=${UCOS_DIR}/Ports/ARM-Cortex-M3/Generic/GNU
 UCOS_PORTDIR1=${UCOS_DIR}/uC-OS3/Ports/ARM-Cortex-M/ARMv7-M
 UCOS_PORTDIR2=${UCOS_DIR}/uC-OS3/Ports/ARM-Cortex-M/ARMv7-M/GNU

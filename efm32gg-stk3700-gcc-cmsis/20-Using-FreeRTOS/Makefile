@@ -106,6 +106,7 @@ GECKOSDKDIR=../../Gecko_SDK
 CMSISDIR=${GECKOSDKDIR}/platform/CMSIS/Core
 CMSISDEVINCDIR=${GECKOSDKDIR}/platform/Device/SiliconLabs/EFM32GG/Include
 
+
 #
 # FreeRTOS Configuration
 #
@@ -124,7 +125,7 @@ CMSISDEVINCDIR=${GECKOSDKDIR}/platform/Device/SiliconLabs/EFM32GG/Include
 #
 
 #When using only the FreeRTOS Kernel
-FREERTOSDIR=../../../FreeRTOS-Kernel
+FREERTOSDIR=${GECKOSDKDIR}/util/third_party/freertos/kernel
 # When using the full FreeRTOS (not tested)
 #FREERTOSDIR=../../../FreeRTOS/FreeRTOS/Source
 
