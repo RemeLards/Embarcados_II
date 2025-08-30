@@ -9,7 +9,7 @@ https://developer.arm.com/-/media/Files/downloads/gnu/14.3.rel1/binrel/arm-gnu-t
 Coloque no ~/.bashrc
 ```
 # EMBARCADOS
-export PATH="$PATH:/home/rafael/arm-gnu-toolchain-14.3.rel1-x86_64-arm-none-eabi/bin"
+export PATH="$PATH:~/arm-gnu-toolchain-14.3.rel1-x86_64-arm-none-eabi/bin"
 ```
 Digite 'bash' no terminal depois de salvar ou abra outro terminal
 
